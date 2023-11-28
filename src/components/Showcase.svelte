@@ -4,7 +4,6 @@
 	const computedClassName = imgPosition === 'left' ? 'grid-container img-left' : 'grid-container';
 	export let title: string;
 	export let content: string;
-	import IconsCollage from '../components/IconsCollage.svelte';
 </script>
 
 <div class={computedClassName}>
