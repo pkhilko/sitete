@@ -13,11 +13,7 @@
 		<Button />
 	</div>
 	<div class="two">
-		<img
-			class="img"
-			src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"
-			alt="blev"
-		/>
+		<slot />
 	</div>
 </div>
 
@@ -47,12 +43,5 @@
 		grid-area: b;
 		border: 2px solid #c91818;
 		padding: 24px;
-	}
-	.img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		object-fit: fill;
 	}
 </style>
